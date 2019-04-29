@@ -1,9 +1,10 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'roda', '>= 3.19.0'
-gem 'github-markup', '>= 3.0.4'
+gem 'roda', '3.19.0'
+gem 'github-markup', '3.0.4'
 
-# https://github.com/github/markup/blob/master/Gemfile
+# Copied from https://github.com/github/markup/blob/master/Gemfile
+
 gem "RedCloth"
 gem "commonmarker", "~> 0.18.1"
 gem "rdoc", "~>3.6"

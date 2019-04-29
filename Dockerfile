@@ -1,9 +1,10 @@
 FROM ruby:2.6.3-alpine
-RUN apk add --update perl make gcc g++ libc-dev py-pip
+RUN apk update && apk upgrade && apk add --update perl make gcc g++ libc-dev py-pip
 RUN pip install docutils
+
 WORKDIR /usr/src/app
-ADD Gemfile ./
+ADD . .
 RUN bundle install
-COPY . .
-EXPOSE 8080
-CMD ["bundle", "exec", "rackup", "--host", "0.0.0.0", "-p", "8080"]
+
+EXPOSE 3000
+ENTRYPOINT ["bundle", "exec", "rackup", "-o", "0.0.0.0", "-p", "3000"]
