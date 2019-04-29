@@ -1,3 +1,3 @@
-require File.expand_path("../lib/app",  __FILE__)
+require_relative './lib/app'
 
 run App.freeze.app
