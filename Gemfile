@@ -8,7 +8,7 @@ gem 'html-pipeline', '2.11.0'
 
 gem 'RedCloth', '4.3.2'
 gem 'commonmarker', '0.20.1'
-gem 'rdoc', '3.6.1'
+gem 'rdoc', '~>3.6'
 gem 'org-ruby', '0.9.12'
 gem 'creole', '0.5.0'
 gem 'wikicloth', '0.8.3'
