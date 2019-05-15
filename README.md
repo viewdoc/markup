@@ -4,14 +4,20 @@
 
 ## Usage
 
-Run the docker:
+### Build
+
+```bash
+$ docker build -t viewdoc/markup .
+```
+
+### Run
 
 ```bash
 $ docker run -it -p 3000:3000 viewdoc/markup
 ```
 
-then you can test by:
+### Test
 
 ```bash
-$ curl -i -X POST http://localhost:3000/markdown -d 'Hello, **World**!'
+$ curl -i -X POST http://localhost:3000/markdown -d 'Hello, **World**! :heart:'
 ```
