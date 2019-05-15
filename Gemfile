@@ -4,19 +4,19 @@ gem 'roda', '3.19.0'
 gem 'github-markup', '3.0.4'
 gem 'html-pipeline', '2.11.0'
 
-# Copied from https://github.com/github/markup/blob/master/Gemfile
+# https://github.com/github/markup
 
-gem 'RedCloth'
-gem 'commonmarker', '~> 0.18.1'
-gem 'rdoc', '~>3.6'
-gem 'org-ruby', '= 0.9.9'
-gem 'creole', '~>0.3.6'
-gem 'wikicloth', '=0.8.3'
+gem 'RedCloth', '4.3.2'
+gem 'commonmarker', '0.20.1'
+gem 'rdoc', '3.6.1'
+gem 'org-ruby', '0.9.12'
+gem 'creole', '0.5.0'
+gem 'wikicloth', '0.8.3'
 gem 'twitter-text', '~> 1.14'
-gem 'asciidoctor', '~> 2.0.5'
+gem 'asciidoctor', '2.0.9'
 
-# Copied from https://github.com/jch/html-pipeline/blob/master/Gemfile
+# https://github.com/jch/html-pipeline
 
-gem 'sanitize', '~> 4.6'
-gem 'gemoji', '~> 2.0'
-gem 'escape_utils', '~> 1.0'
+gem 'sanitize', '5.0.0'
+gem 'gemoji', '3.0.1'
+gem 'escape_utils', '1.2.1'
